@@ -1,14 +1,19 @@
 import classNames from "classnames";
 
-export function Win95Card({ title = "Program", state = "active", children }) {
+export function Win95Card({
+  title = "Program",
+  state = "active",
+  children,
+  className = "",
+}) {
   const titlebarStateClasses = classNames(
     { "bg-win-blue": state === "active" },
     { "bg-win-dark-grey": state === "inactive" }
   );
 
   return (
-    <div className="p-1 bg-win-grey inline-block">
-      <div className="border-2 border-black w-96">
+    <div className={`p-1 bg-win-grey inline-block w-96 ${className}`}>
+      <div className="border-2 border-black ">
         <div
           className={`win-titlebar text-white text-sm h-7 ${titlebarStateClasses}`}
         >

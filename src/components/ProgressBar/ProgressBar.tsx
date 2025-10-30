@@ -1,6 +1,6 @@
-export function Win95ProgressBar({ type = "solid" }) {
+export function Win95ProgressBar({ type = "solid", className = "" }) {
   return (
-    <div className="w-66">
+    <div className={`w-66 ${className}`}>
       <div className="overflow-hidden rounded-none bg-win-grey">
         {type === "solid" && (
           <div
