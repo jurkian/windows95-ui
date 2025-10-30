@@ -16,3 +16,15 @@ Feel free to use it, modify it, etc.
 1. Install `NodeJS` and `npm`/`pnpm`
 2. Run `pnpm install`
 3. Run `pnpm dev`
+
+### Components list
+
+- Card
+- Form
+- Form button
+- Form input
+- Hero section
+- List
+- Navbar
+- Progress bar
+- Table
