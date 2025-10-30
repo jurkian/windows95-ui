@@ -8,6 +8,7 @@
   --color-bevel-light: #ffffff;
   --color-bevel-dark: #6b6b6b;
 
+  /* TODO: could be changed to something more oldschool, if needed */
   --font-ms: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 
@@ -51,12 +52,4 @@
   font-size: 10px;
   margin-left: 2px;
   border-width: 1px;
-}
-
-.win-checkbox {
-  width: 18px;
-  height: 16px;
-  display: inline-grid;
-  place-items: center;
-  font-size: 11px;
 }
