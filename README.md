@@ -1,4 +1,5 @@
 # Windows 95 inspired UI
+![Alt text](/screenshot.png?raw=true "screenshot")
 
 Made with:
 
