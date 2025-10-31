@@ -1,11 +1,19 @@
 import classNames from "classnames";
+import type { ReactNode } from "react";
+
+type Props = {
+  title: string;
+  state: "active" | "inactive";
+  children: ReactNode;
+  className?: string;
+};
 
 export function Win95Card({
   title = "Program",
   state = "active",
   children,
   className = "",
-}) {
+}: Props) {
   const titlebarStateClasses = classNames(
     { "bg-win-blue": state === "active" },
     { "bg-win-dark-grey": state === "inactive" }

@@ -65,7 +65,6 @@ export function Form() {
                 </select>
               </div>
             </div>
-            {/* <div className="sm:col-span-3"> */}
             <div className="sm:col-span-6">
               <label
                 htmlFor="message"

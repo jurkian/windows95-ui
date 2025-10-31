@@ -38,7 +38,11 @@ const people = [
   // More people...
 ];
 
-export function TableStriped({ className = "" }) {
+type Props = {
+  className: string;
+};
+
+export function TableStriped({ className = "" }: Props) {
   return (
     <div className={`${className}`}>
       <div className="flow-root">

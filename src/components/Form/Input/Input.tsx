@@ -1,10 +1,20 @@
+import type { HTMLInputTypeAttribute } from "react";
+
+type Props = {
+  labelText?: boolean | string;
+  placeholder?: string;
+  type?: HTMLInputTypeAttribute;
+  id?: string;
+  name?: string;
+};
+
 export function Win95Input({
   labelText = false,
   placeholder = "",
-  type = "",
+  type = "text",
   id = "",
   name = "",
-}) {
+}: Props) {
   return (
     <div>
       {labelText && (

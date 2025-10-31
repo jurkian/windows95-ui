@@ -1,4 +1,11 @@
-export function Win95Button({ children, onClick }) {
+import type { ReactNode } from "react";
+
+type Props = {
+  children: ReactNode;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+};
+
+export function Win95Button({ children, onClick }: Props) {
   return (
     <button
       onClick={onClick}
